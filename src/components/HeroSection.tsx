@@ -39,7 +39,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onExplore }) => {
             className="text-black text-5xl md:text-6xl lg:text-7xl font-medium leading-tight max-w-2xl mb-4"
             style={{ letterSpacing: '-0.04em' }}
           >
-            Más de 15 Años
+            + 15 Años
             <br />
             De Experiencia
           </h1>
