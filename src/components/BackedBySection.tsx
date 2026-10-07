@@ -88,9 +88,9 @@ export const BackedBySection: React.FC = () => {
       <ScrollReveal className="max-w-[88rem] mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 items-center" delay={0}>
         {/* Left col (1/4) */}
         <div className="text-black/70 text-base leading-relaxed">
-          Nuestros productos cuentan con las certificaciones
+          Nuestros productos cuentan con las certificaciones y estándares
           <br className="hidden md:inline" />
-          {' '}y estándares de calidad más exigentes a nivel internacional.
+          {' '}de calidad más exigentes a nivel internacional.
         </div>
 
         {/* Right col (3/4) */}
