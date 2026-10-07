@@ -14,8 +14,9 @@ interface InformacionViewProps {
 interface ProductItem {
   id: string;
   name: string;
+  subtitle?: string; // Subtítulo en la tarjeta (ej. 'Marlin Azul y Marlin Negro')
   photo: string;
-  grade: string;
+  grade: string; // Calificación de Calidad en la ficha técnica (ej. 'Grado Sashimi AAA')
   lipid: string;
   texture: string;
   cuts?: string[];
@@ -28,8 +29,9 @@ const productsData: ProductItem[] = [
   {
     id: 'picudo',
     name: 'Picudo',
+    subtitle: 'Marlin Azul y Marlin Negro',
     photo: './assets/picudo_hero.jpg?v=3',
-    grade: 'Marlin Azul y Marlin Negro',
+    grade: 'Grado Sashimi AAA',
     lipid: '8% - 12%',
     texture: 'Firme, carnosa, sabor dulce',
     temp: 'Ultracongelación a Bordo',
@@ -39,6 +41,7 @@ const productsData: ProductItem[] = [
   {
     id: 'wahoo',
     name: 'Wahoo',
+    subtitle: 'Extra White',
     photo: './assets/wahoo_hero.jpg?v=3',
     grade: 'Extra White',
     lipid: '5% - 8%',
@@ -177,7 +180,7 @@ export const InformacionView: React.FC<InformacionViewProps> = ({
                     <img src={item.photo} alt={item.name} className="w-full h-full object-cover" />
                   </div>
                   <div className="text-lg font-medium leading-snug mb-1">{item.name}</div>
-                  <div className="text-xs font-semibold opacity-80">{item.grade}</div>
+                  <div className="text-xs font-semibold opacity-80">{item.subtitle || item.grade}</div>
                 </button>
               );
             })}

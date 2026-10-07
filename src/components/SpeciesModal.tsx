@@ -20,6 +20,7 @@ interface SpeciesModalProps {
 interface SpecieItem {
   id: string;
   name: string;
+  subtitle?: string;
   photo: string;
   grade: string;
   fatContent: string;
@@ -30,6 +31,7 @@ const speciesList: SpecieItem[] = [
   {
     id: 'picudo',
     name: 'Picudo',
+    subtitle: 'Marlin Azul y Marlin Negro',
     photo: './assets/picudo_hero.jpg?v=3',
     grade: 'Grado Sashimi AAA',
     fatContent: 'Alto Contenido Graso (>8%)',
@@ -39,6 +41,7 @@ const speciesList: SpecieItem[] = [
   {
     id: 'wahoo',
     name: 'Wahoo',
+    subtitle: 'Extra White',
     photo: './assets/wahoo_hero.jpg?v=3',
     grade: 'Extra White',
     fatContent: 'Medio-Alto (5-8%)',
@@ -470,7 +473,7 @@ export const SpeciesModal: React.FC<SpeciesModalProps> = ({
                       />
                       <div className="flex-1">
                         <div className="font-medium text-sm leading-tight mb-1">{item.name}</div>
-                        <div className="text-[11px] font-semibold opacity-80">{item.grade}</div>
+                        <div className="text-[11px] font-semibold opacity-80">{item.subtitle || item.grade}</div>
                       </div>
                     </button>
                   ))}
