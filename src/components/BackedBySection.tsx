@@ -88,9 +88,9 @@ export const BackedBySection: React.FC = () => {
       <ScrollReveal className="max-w-[88rem] mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 items-center" delay={0}>
         {/* Left col (1/4) */}
         <div className="text-black/70 text-base leading-relaxed">
-          Acreditado por las máximas autoridades sanitarias
+          Nuestros productos cuentan con las certificaciones
           <br className="hidden md:inline" />
-          {' '}y agencias de inspección pesquera global.
+          {' '}y estándares de calidad más exigentes a nivel internacional.
         </div>
 
         {/* Right col (3/4) */}

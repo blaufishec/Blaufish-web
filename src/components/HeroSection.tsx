@@ -46,7 +46,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onExplore }) => {
 
           {/* Paragraph */}
           <p
-            className="text-black/75 text-base md:text-lg max-w-lg mb-8 leading-relaxed font-light"
+            className="text-black/75 text-base md:text-lg max-w-lg mb-8 leading-relaxed font-light text-justify"
             style={{ fontFamily: "'Inter', ui-sans-serif, system-ui, sans-serif" }}
           >
             Blaufish es una empresa familiar de comerciantes de pesca blanca con más de 15 años de experiencia y estrechos lazos comerciales

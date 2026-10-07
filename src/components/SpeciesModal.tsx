@@ -50,7 +50,7 @@ const speciesList: SpecieItem[] = [
   },
 ];
 
-const TARGET_EMAIL = 'blaufishec@gmail.com';
+const TARGET_EMAIL = 'blau@blaufishec.com';
 
 const FIELD_LIMITS = {
   name: 50,
@@ -484,7 +484,7 @@ export const SpeciesModal: React.FC<SpeciesModalProps> = ({
                   <div className="text-xs font-semibold uppercase tracking-wider text-black/40 mb-2">
                     Ficha Técnica de Origen
                   </div>
-                  <p className="text-black/80 text-xs leading-relaxed font-light">
+                  <p className="text-black/80 text-xs leading-relaxed font-light text-justify">
                     {selectedSpecies.description}
                   </p>
                 </div>

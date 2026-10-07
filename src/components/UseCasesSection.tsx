@@ -107,8 +107,8 @@ export const UseCasesSection: React.FC<UseCasesSectionProps> = ({ onNavigate, on
             Conoce lo esencial de nuestra operación.
           </h2>
 
-          <p className="text-black/60 text-base leading-relaxed font-light">
-            Selecciona cualquiera de las opciones para descubrir los pilares que definen a Blaufish: nuestra trayectoria, las especies del Pacífico y nuestro compromiso en origen.
+          <p className="text-black/60 text-base leading-relaxed font-light text-justify">
+            Selecciona cualquiera de las opciones para descubrir los pilares que definen a Blaufish: Nuestra Trayectoria, las Especies del Pacífico y Nuestro Compromiso en Origen.
           </p>
         </ScrollReveal>
 
@@ -123,8 +123,8 @@ export const UseCasesSection: React.FC<UseCasesSectionProps> = ({ onNavigate, on
                 <div
                   ref={(el) => (pillarRefs.current[idx] = el)}
                   className={`rounded-3xl border transition-all duration-200 overflow-hidden ${isSelected
-                      ? 'bg-white border-[#142344]/30 shadow-xl ring-1 ring-[#142344]/10'
-                      : 'bg-white hover:bg-neutral-50/80 border-black/5 hover:border-black/15 shadow-sm'
+                    ? 'bg-white border-[#142344]/30 shadow-xl ring-1 ring-[#142344]/10'
+                    : 'bg-white hover:bg-neutral-50/80 border-black/5 hover:border-black/15 shadow-sm'
                     }`}
                 >
                   {/* Clickable Option Header Bar */}
@@ -163,8 +163,8 @@ export const UseCasesSection: React.FC<UseCasesSectionProps> = ({ onNavigate, on
                       </span>
                       <div
                         className={`w-9 h-9 rounded-full flex items-center justify-center transition-transform duration-300 ${isSelected
-                            ? 'bg-white text-[#142344] rotate-180'
-                            : 'bg-black/5 text-black/50'
+                          ? 'bg-white text-[#142344] rotate-180'
+                          : 'bg-black/5 text-black/50'
                           }`}
                       >
                         <ChevronDown className="w-4 h-4" />
@@ -205,7 +205,7 @@ export const UseCasesSection: React.FC<UseCasesSectionProps> = ({ onNavigate, on
                               {pillar.headline}
                             </h3>
 
-                            <p className="text-black/70 text-sm md:text-base leading-relaxed mb-6 font-light">
+                            <p className="text-black/70 text-sm md:text-base leading-relaxed mb-6 font-light text-justify">
                               {pillar.description}
                             </p>
                           </div>

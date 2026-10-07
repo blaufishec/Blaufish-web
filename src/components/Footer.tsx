@@ -13,7 +13,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenPortal }) => {
       <div className="max-w-[88rem] mx-auto">
         {/* Vista Móvil (modo teléfono): Muestra la descripción, ubicaciones y la línea de copyright */}
         <div className="md:hidden">
-          <p className="text-black/70 text-sm leading-relaxed mb-6 font-light">
+          <p className="text-black/70 text-sm leading-relaxed mb-6 font-light text-justify">
             Blaufish Cía. Ltda. es una comercializadora pesquera ecuatoriana con sede principal en Manta, Manabí. Empresa familiar con más de 15 años de experiencia, estrechos lazos comerciales con Asia y ultracongelación a bordo.
           </p>
           <div className="flex flex-col gap-2.5 text-xs text-black/60 font-mono mb-6">
@@ -29,9 +29,9 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenPortal }) => {
               <Phone className="w-3.5 h-3.5 shrink-0 text-[#142344]" />
               <span>+593 98-678-1318</span>
             </a>
-            <a href="mailto:blaufishec@gmail.com" className="flex items-center gap-2 hover:text-black transition-colors">
+            <a href="mailto:blau@blaufishec.com" className="flex items-center gap-2 hover:text-black transition-colors">
               <Mail className="w-3.5 h-3.5 shrink-0 text-[#142344]" />
-              <span>blaufishec@gmail.com</span>
+              <span>blau@blaufishec.com</span>
             </a>
           </div>
           <div className="pt-6 border-t border-black/10 text-xs text-black/50 leading-relaxed">
@@ -54,7 +54,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenPortal }) => {
                   className="h-10 w-auto object-contain transition-transform duration-200 group-hover:scale-105"
                 />
               </button>
-              <p className="text-black/60 text-sm leading-relaxed max-w-sm mb-6 font-light">
+              <p className="text-black/60 text-sm leading-relaxed max-w-sm mb-6 font-light text-justify">
                 Blaufish Cía. Ltda. es una comercializadora pesquera ecuatoriana con sede principal en Manta, Manabí. Empresa familiar con más de 15 años de experiencia, estrechos lazos comerciales con Asia y ultracongelación a bordo.
               </p>
               <div className="flex flex-col gap-1.5 text-xs text-black/50 font-mono">
@@ -102,12 +102,12 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenPortal }) => {
                 <ul className="space-y-2 text-xs text-black/70">
                   <li>
                     <a
-                      href="mailto:blaufishec@gmail.com"
+                      href="mailto:blau@blaufishec.com"
                       className="inline-flex items-center gap-2 hover:text-black transition-colors"
                       title="Enviar correo a Blaufish"
                     >
                       <Mail className="w-3.5 h-3.5 text-[#142344] shrink-0" />
-                      <span>blaufishec@gmail.com</span>
+                      <span>blau@blaufishec.com</span>
                     </a>
                   </li>
                   <li>

@@ -158,7 +158,7 @@ export const InformacionView: React.FC<InformacionViewProps> = ({
             >
               Especies de Pesca Blanca del Pacífico
             </h1>
-            <p className="text-black/70 text-base leading-relaxed">
+            <p className="text-black/70 text-base leading-relaxed text-justify">
               Selecciona una especie para inspeccionar su ficha bromatológica, perfil de calidad y disponibilidad de cuota para importadores internacionales.
             </p>
           </ScrollReveal>
@@ -192,7 +192,7 @@ export const InformacionView: React.FC<InformacionViewProps> = ({
               <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
                 <div className="lg:col-span-7">
                   <h2 className="text-3xl font-medium text-black mb-4">{selectedProduct.name}</h2>
-                  <p className="text-black/70 text-base leading-relaxed mb-8 font-light">
+                  <p className="text-black/70 text-base leading-relaxed mb-8 font-light text-justify">
                     {selectedProduct.desc}
                   </p>
 
@@ -256,7 +256,7 @@ export const InformacionView: React.FC<InformacionViewProps> = ({
             >
               Calidad y Frescura en Cada Pieza
             </h1>
-            <p className="text-black/70 text-base md:text-lg leading-relaxed font-light">
+            <p className="text-black/70 text-base md:text-lg leading-relaxed font-light text-justify">
               Cuidamos cada detalle desde el origen para llevar a tu mesa un pescado de excelente calidad. Seleccionamos únicamente piezas frescas, de carne firme y sabor inigualable, listas para deleitar a tus clientes.
             </p>
           </ScrollReveal>
@@ -278,7 +278,7 @@ export const InformacionView: React.FC<InformacionViewProps> = ({
                   <h3 className="text-2xl font-medium mb-3">
                     Calidad desde el Origen
                   </h3>
-                  <p className="text-white/75 text-sm leading-relaxed mb-4">
+                  <p className="text-white/75 text-sm leading-relaxed mb-4 text-justify">
                     Seleccionamos productos de alto estándar, cuidando cada etapa para conservar sus características naturales hasta su destino.
                   </p>
                 </div>
@@ -301,7 +301,7 @@ export const InformacionView: React.FC<InformacionViewProps> = ({
                   <h3 className="text-2xl font-medium text-black mb-3">
                     Textura Firme y Sabor Natural
                   </h3>
-                  <p className="text-black/60 text-sm leading-relaxed mb-4">
+                  <p className="text-black/60 text-sm leading-relaxed mb-4 text-justify">
                     Cuidamos la frescura desde el primer momento para que el pescado mantenga su textura y todo su sabor natural al momento de cocinarlo.
                   </p>
                 </div>
@@ -324,7 +324,7 @@ export const InformacionView: React.FC<InformacionViewProps> = ({
                   <h3 className="text-2xl font-medium text-black mb-3">
                     Ideal para Cualquier Preparación
                   </h3>
-                  <p className="text-black/60 text-sm leading-relaxed mb-4">
+                  <p className="text-black/60 text-sm leading-relaxed mb-4 text-justify">
                     Nuestra pesca blanca es perfecta para lucirte en ceviches frescos, platos gourmet, filetes a la plancha o a la parrilla, ofreciendo un excelente rendimiento y cero desperdicio.
                   </p>
                 </div>
@@ -354,7 +354,7 @@ export const InformacionView: React.FC<InformacionViewProps> = ({
             >
               Cumplimiento Sanitario Internacional
             </h1>
-            <p className="text-black/70 text-base leading-relaxed">
+            <p className="text-black/70 text-base leading-relaxed text-justify">
               Cumplimos con las normativas fitosanitarias y de bioseguridad alimentaria más exigentes del mundo para ingreso inmediato a la Unión Europea, Estados Unidos, Corea del Sur y Japón.
             </p>
           </ScrollReveal>
@@ -366,7 +366,7 @@ export const InformacionView: React.FC<InformacionViewProps> = ({
                   Unión Europea
                 </div>
                 <h3 className="text-xl font-medium text-black mb-2">Registro Sanitario UE #042</h3>
-                <p className="text-black/60 text-xs leading-relaxed">
+                <p className="text-black/60 text-xs leading-relaxed text-justify">
                   Autorización plena para comercialización en los 27 países del bloque comunitario europeo sin trabas fronterizas.
                 </p>
               </div>
@@ -378,7 +378,7 @@ export const InformacionView: React.FC<InformacionViewProps> = ({
                   Estados Unidos
                 </div>
                 <h3 className="text-xl font-medium text-black mb-2">FDA Biosecurity Act</h3>
-                <p className="text-black/60 text-xs leading-relaxed">
+                <p className="text-black/60 text-xs leading-relaxed text-justify">
                   Registro y validación de instalaciones pesqueras bajo normativa de la Administración de Alimentos y Medicamentos de EE. UU.
                 </p>
               </div>
@@ -390,7 +390,7 @@ export const InformacionView: React.FC<InformacionViewProps> = ({
                   Corea del Sur
                 </div>
                 <h3 className="text-xl font-medium text-black mb-2">Auditoría NFQS Corea</h3>
-                <p className="text-black/60 text-xs leading-relaxed">
+                <p className="text-black/60 text-xs leading-relaxed text-justify">
                   Aprobado por el Servicio Nacional de Gestión de Calidad de Productos Pesqueros de la República de Corea para importación directa.
                 </p>
               </div>
@@ -402,7 +402,7 @@ export const InformacionView: React.FC<InformacionViewProps> = ({
                   Inocuidad Industrial
                 </div>
                 <h3 className="text-xl font-medium text-black mb-2">Certificación HACCP / BPM</h3>
-                <p className="text-black/60 text-xs leading-relaxed">
+                <p className="text-black/60 text-xs leading-relaxed text-justify">
                   Análisis de Peligros y Puntos Críticos de Control auditado de forma permanente en cada fase de eviscerado y empaque.
                 </p>
               </div>
@@ -414,7 +414,7 @@ export const InformacionView: React.FC<InformacionViewProps> = ({
                   Conservación Marina
                 </div>
                 <h3 className="text-xl font-medium text-black mb-2">Dolphin Safe & CIAT</h3>
-                <p className="text-black/60 text-xs leading-relaxed">
+                <p className="text-black/60 text-xs leading-relaxed text-justify">
                   Garantía certificada de cero mortalidad de delfines y adhesión estricta a vedas de la Comisión Interamericana del Atún Tropical.
                 </p>
               </div>
@@ -426,7 +426,7 @@ export const InformacionView: React.FC<InformacionViewProps> = ({
                   Origen Oficial
                 </div>
                 <h3 className="text-xl font-medium text-black mb-2">Certificado Ministerio Acuacultura</h3>
-                <p className="text-black/60 text-xs leading-relaxed">
+                <p className="text-black/60 text-xs leading-relaxed text-justify">
                   Emisión de certificados fitosanitarios y de origen oficial de la República del Ecuador para aranceles preferenciales.
                 </p>
               </div>

@@ -71,10 +71,10 @@ export const QuienesSomosView: React.FC<QuienesSomosViewProps> = ({
                 Tradición oceánica,{' '}
                 <span className="text-black/50">estándares mundiales.</span>
               </h1>
-              <p className="text-black/70 text-lg md:text-xl leading-relaxed mb-6 font-light">
+              <p className="text-black/70 text-lg md:text-xl leading-relaxed mb-6 font-light text-justify">
                 Fundada en Manta —puerto pesquero insignia del Pacífico ecuatoriano—, Blaufish Cía. Ltda. es una empresa familiar y comercializadora líder con más de 15 años de experiencia, especializada en la selección, calidad certificada y comercialización de pesca blanca.
               </p>
-              <p className="text-black/60 text-base leading-relaxed mb-8">
+              <p className="text-black/60 text-base leading-relaxed mb-8 text-justify">
                 Nuestros estrechos lazos comerciales con Asia nos permiten acceder a productos pesqueros de primer nivel, que posteriormente son comercializados a nivel nacional, garantizando calidad, conservación y una cadena de custodia adecuada desde su origen hasta el consumidor.
               </p>
 
@@ -109,7 +109,7 @@ export const QuienesSomosView: React.FC<QuienesSomosViewProps> = ({
                   <div className="text-xl font-medium leading-snug mb-2">
                     Inspección individual pieza por pieza
                   </div>
-                  <p className="text-xs text-white/70 leading-relaxed">
+                  <p className="text-xs text-white/70 leading-relaxed text-justify">
                     Evaluamos contenido graso, coloración mioglobínica y frescura organoléptica antes de cada consolidación aérea o marítima.
                   </p>
                 </div>
@@ -125,7 +125,7 @@ export const QuienesSomosView: React.FC<QuienesSomosViewProps> = ({
                   <Anchor className="w-6 h-6" />
                 </div>
                 <h3 className="text-2xl font-medium text-black mb-3">Nuestra Misión</h3>
-                <p className="text-black/70 text-base leading-relaxed">
+                <p className="text-black/70 text-base leading-relaxed text-justify">
                   Nuestra misión es ofrecer un producto nacional de excelencia, aplicando los más altos estándares de calidad, para deleitar a los paladares más exigentes del mercado ecuatoriano. Nos comprometemos a brindar sabor, frescura y confianza, impulsando el valor de la producción nacional.
                 </p>
               </div>
@@ -141,7 +141,7 @@ export const QuienesSomosView: React.FC<QuienesSomosViewProps> = ({
                     <Award className="w-6 h-6" />
                   </div>
                   <h3 className="text-2xl font-medium text-white mb-3">Nuestra Visión</h3>
-                  <p className="text-white/70 text-base leading-relaxed">
+                  <p className="text-white/70 text-base leading-relaxed text-justify">
                     Consolidarnos como los comerciantes de pesca blanca más confiables y respetados del Pacífico Sur, reconocidos en los principales sectores comerciales del mundo por nuestra pureza, ética y excelencia operativa.
                   </p>
                 </div>
@@ -169,7 +169,7 @@ export const QuienesSomosView: React.FC<QuienesSomosViewProps> = ({
             >
               Responsabilidad Social
             </h2>
-            <p className="text-black/70 text-base md:text-lg leading-relaxed font-light">
+            <p className="text-black/70 text-base md:text-lg leading-relaxed font-light text-justify">
               Nuestra responsabilidad social se fundamenta en procesos correctamente establecidos según las normas y políticas de cada empresa, garantizando métodos éticos de captura y el control absoluto de la cadena de frío.
             </p>
           </ScrollReveal>
@@ -182,10 +182,10 @@ export const QuienesSomosView: React.FC<QuienesSomosViewProps> = ({
                     <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0" />
                     <span>Procesos Establecidos según Normas y Políticas</span>
                   </h3>
-                  <p className="text-black/70 text-sm leading-relaxed mb-4">
+                  <p className="text-black/70 text-sm leading-relaxed mb-4 text-justify">
                     Contamos con procesos correctamente establecidos y auditados, adaptados a las exigencias normativas, certificaciones de calidad y políticas internas de cada empresa aliada y cliente comercial.
                   </p>
-                  <p className="text-black/60 text-xs leading-relaxed">
+                  <p className="text-black/60 text-xs leading-relaxed text-justify">
                     Estandarización operativa, trazabilidad documental y cumplimiento estricto de directrices sanitarias y comerciales para una relación transparente y confiable.
                   </p>
                 </div>
@@ -199,10 +199,10 @@ export const QuienesSomosView: React.FC<QuienesSomosViewProps> = ({
                     <ShieldCheck className="w-5 h-5 text-blue-600 shrink-0" />
                     <span>Correctas Prácticas de Capturas y Cadena de Frío</span>
                   </h3>
-                  <p className="text-black/70 text-sm leading-relaxed mb-4">
+                  <p className="text-black/70 text-sm leading-relaxed mb-4 text-justify">
                     Implementamos métodos de correctas prácticas de captura selectiva y responsable, asegurando un manejo técnico cuidadoso del producto desde su extracción marina.
                   </p>
-                  <p className="text-black/60 text-xs leading-relaxed">
+                  <p className="text-black/60 text-xs leading-relaxed text-justify">
                     Preservación rigurosa de la cadena de frío ininterrumpida y ultracongelación inmediata para mantener intactas las propiedades organolépticas, frescura y textura natural de la pesca blanca.
                   </p>
                 </div>
@@ -215,7 +215,7 @@ export const QuienesSomosView: React.FC<QuienesSomosViewProps> = ({
             <div className="p-8 md:p-12 rounded-3xl bg-[#142344] text-white flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl">
               <div>
                 <h3 className="text-2xl font-medium mb-2">¿Deseas conocer más sobre nuestras operaciones?</h3>
-                <p className="text-white/70 text-sm max-w-lg">
+                <p className="text-white/70 text-sm max-w-lg text-justify">
                   Nuestro departamento de comercio exterior y aseguramiento de calidad está disponible para presentar auditorías y dossiers de trazabilidad.
                 </p>
               </div>
