@@ -29,7 +29,7 @@ const productsData: ProductItem[] = [
     id: 'picudo',
     name: 'Picudo',
     photo: './assets/picudo_hero.jpg?v=3',
-    grade: 'Grado Sashimi AAA',
+    grade: 'Marlin Azul y Marlin Negro',
     lipid: '8% - 12%',
     texture: 'Firme, carnosa, sabor dulce',
     temp: 'Ultracongelación a Bordo',
